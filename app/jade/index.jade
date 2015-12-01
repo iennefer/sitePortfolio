@@ -1,0 +1,149 @@
+doctype html
+html(lang="ru-RU")
+	head
+		meta(charset="UTF-8")
+		title Портфолио	
+		link(rel="stylesheet" href="bower/normalize-css/normalize.css")
+		link(rel="stylesheet" href="css/main.css")
+	body
+		.wrapper
+			.container.clearfix
+
+				// HEADER
+
+				header.page-header
+					.page-header__container.clearfix
+						.page-header__logo-container
+							a(href="#").page-header__logo-link
+								img(src='img/logo.png' alt='логотип').page-header__logo
+								.page-header__logo-text LoftSchool
+					
+						ul.page-header__social-btn
+							li.page-header__social-btn-item
+								a(href="https://www.facebook.com/profile.php?id=100001747512288" target="_blank").page-header__social-btn-link.fa.fa-facebook 
+									span facebook
+							li.page-header__social-btn-item
+								a(href="http://vk.com/id57193343" target="_blank").page-header__social-btn-link.fa.fa-vk
+									span вконтакте
+							li.page-header__social-btn-item
+								a(href="#").page-header__social-btn-link.fa.fa-twitter
+									span tw 
+							li.page-header__social-btn-item
+								a(href="https://github.com/Anatoliy-Bezhenaru" target="_blank").page-header__social-btn-link.fa.fa-github-alt
+									
+				// MAIN-CONTENT
+
+				section.main-content.clearfix
+
+					aside.aside-content
+						nav.aside-content__menu
+							ul.aside-content__list
+								li.aside-content__item 
+									a(href="#").aside-content__link Обо мне
+								li.aside-content__item 
+									a(href="#").aside-content__link Мои Работы
+								li.aside-content__item 
+									a(href="#").aside-content__link Обратная связь
+
+						section.aside-content__contacs
+							.aside-content__contacs-title
+								h2.aside-content__contacs-title-text Контакты
+							ul.aside-content__contacs-list
+								li.aside-content__contacs-item
+									a(href="mailto:bejena-ru@ya.ru").aside-content__contacs-link.aside-content__contacs-link--envelope bejena-ru@ya.ru
+								li.aside-content__contacs-item
+									a(href="tel:+79049614838").aside-content__contacs-link.aside-content__contacs-link--phone 89049614838
+								li.aside-content__contacs-item
+									a(href="skype:achunter86").aside-content__contacs-link.aside-content__contacs-link--skype achunter86
+
+					.central-content
+						.central-content__block
+							.central-content__block-title
+								h2.central-content__block-title-text Основная информация
+							.central-content__block-content.clearfix
+								.central-content__block-photo-container
+									.central-content__block-photo-wrapper
+										img(src="img/photo.jpg" alt='фото').central-content__block-photo
+								.central-content__block-about-me
+									ul.central-content__block-about-me-list
+										li.central-content__block-about-me-item 
+											span Меня зовут: 
+											Беженару Анатолий Валерьевич
+										li.central-content__block-about-me-item 
+											span Мой возраст: 
+											|29лет
+										li.central-content__block-about-me-item 
+											span Мой город: 
+											Анжеро-Судженск, Россия
+										li.central-content__block-about-me-item 
+											span Моя специализация: 
+											|Frontend разработчик
+										li.central-content__block-about-me-item 
+											span Ключевые навыки:
+											ul.central-content__block-about-me-skills
+												li.central-content__block-about-me-skills-item.label-size  html
+												li.central-content__block-about-me-skills-item.label-size css
+												li.central-content__block-about-me-skills-item.label-size javascript
+												li.central-content__block-about-me-skills-item.label-size jade
+												li.central-content__block-about-me-skills-item.label-size jquery
+												li.central-content__block-about-me-skills-item.label-size bower
+												li.central-content__block-about-me-skills-item.label-size  git
+												li.central-content__block-about-me-skills-item.label-size  sass
+												li.central-content__block-about-me-skills-item.label-size gulp
+
+						.central-content__block
+							.central-content__block-title
+								h2.central-content__block-title-text Опыт работы
+							.central-content__block-content
+								.central-content__block-experience
+									ul.central-content__block-experience-list
+										li.central-content__block-experience-item.central-content__block-experience-item--brief_case 
+											p "ИП Боровицкий" - Продавец дисков
+											p Сентябрь 2005 - Август 2008
+										li.central-content__block-experience-item.central-content__block-experience-item--brief_case
+											p "ООО Системы безопастности" - Системный администратор
+											p Июнь 2008 - Июль 2010
+										li.central-content__block-experience-item.sprite.sprite-icon_brief_case1
+											p Магнит, Розничная сеть" - Ведущий аналитик по внедрению Oracle Web Center
+											p Август 2011 - Октябрь 2012
+
+
+						.central-content__block
+							.central-content__block-title
+								h2.central-content__block-title-text Образование
+							.central-content__block-content
+								.central-content__block-education
+									ul.central-content__block-education-list
+										li.central-content__block-education-item.central-content__block-education-item--school
+											p МОУ СОШ №32
+											p Сентябрь 1993 - май 2003
+										li.central-content__block-education-item.central-content__block-education-item--graduate
+											p КемГУ
+											p Июнь 2003 - Июль 2008
+										li.central-content__block-education-item.central-content__block-education-item--file
+											p Курсы Loftschool.ru
+											p Ноябрь 2015
+											
+
+		//FOOTER
+
+		footer.page-footer
+			.page-footer__container.clearfix
+				.page-footer__lock
+					a(href="#").page-footer__lock-inner вход
+				.page-footer__copyright
+					p &copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
