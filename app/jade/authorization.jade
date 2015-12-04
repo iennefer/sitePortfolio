@@ -1,0 +1,63 @@
+doctype html
+html(lang="ru-RU")
+	head
+		meta(charset="UTF-8")
+		title Портфолио	
+		link(rel="stylesheet" href="bower/normalize-css/normalize.css")
+		link(rel="stylesheet" href="css/main.css")
+		link(rel="stylesheet" href="css/authorization.css")
+		script(src="bower/modernizr/modernizr.js")
+	body
+		.wrapper
+			.container.clearfix
+
+									
+				// MAIN-CONTENT
+
+				section.authorization-block
+					.authorization-block__wrapper
+						.authorization-block__title Авторизируйтесь
+						.authorization-block__container
+							form.authorization-block__form
+								
+								input(type="mail" id="mail" placeholder="Введите Email" value="" required).authorization-block__form-input.authorization-block__form-input--mail
+								span.authorization-block__icon-mail
+
+								input(type="password" id="password" placeholder="Введите пароль" value="" required).authorization-block__form-input.authorization-block__form-input--password
+								span.authorization-block__icon-password
+
+
+								.authorization-block__checkbox
+									input(type="checkbox" id="checkbox" placeholder="Войти" value="Отправить" ).authorization-block__checkbox-input
+									label(for="checkbox").authorization-block__label.authorization-memory-label Запомнить меня?
+
+								.authorization-block__buttons
+									button(type="submit").authorization-block__btn.authorization-block__btn--sign-in Войти
+								
+
+
+
+							
+										
+		//FOOTER
+
+		footer.page-footer
+			.page-footer__container.clearfix
+				.page-footer__lock
+					a(href="authorization.html").page-footer__lock-inner вход
+				.page-footer__copyright
+					p &copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

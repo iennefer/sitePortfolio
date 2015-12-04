@@ -6,6 +6,7 @@ html(lang="ru-RU")
 		link(rel="stylesheet" href="bower/normalize-css/normalize.css")
 		link(rel="stylesheet" href="css/main.css")
 		link(rel="stylesheet" href="css/myWorks.css")
+		script(src="bower/modernizr/modernizr.js")
 	body
 		.wrapper
 			.container.clearfix
@@ -42,9 +43,9 @@ html(lang="ru-RU")
 								li.aside-content__item 
 									a(href="index.html").aside-content__link Обо мне
 								li.aside-content__item 
-									a(href="myWorks.html").aside-content__link Мои Работы
+									a(href="myWorks.html").aside-content__link.aside-content__link-active Мои Работы
 								li.aside-content__item 
-									a(href="#").aside-content__link Обратная связь
+									a(href="contactUs.html").aside-content__link Обратная связь
 
 						section.aside-content__contacs
 							.aside-content__contacs-title
@@ -110,21 +111,12 @@ html(lang="ru-RU")
 									a(href="#").central-content__myworks-item--new-work-wrapper
 										.central-content__myworks-item--new-work-title Добавить проект
 										
-										
-
-
-													
-
-
-						
-											
-
 		//FOOTER
 
 		footer.page-footer
 			.page-footer__container.clearfix
 				.page-footer__lock
-					a(href="#").page-footer__lock-inner вход
+					a(href="authorization.html").page-footer__lock-inner вход
 				.page-footer__copyright
 					p &copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!
 

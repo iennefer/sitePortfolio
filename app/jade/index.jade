@@ -2,9 +2,16 @@ doctype html
 html(lang="ru-RU")
 	head
 		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=1200")
+		meta(name="description" content="Сайт-портфолио Беженару Анатолия")
+		meta(name="keywords" content="Беженару Анатолий")
+		meta(name="author" content="Беженару Анатолий")
 		title Портфолио	
 		link(rel="stylesheet" href="bower/normalize-css/normalize.css")
 		link(rel="stylesheet" href="css/main.css")
+		script(src="bower/modernizr/modernizr.js")
+			
 	body
 		.wrapper
 			.container.clearfix
@@ -43,7 +50,7 @@ html(lang="ru-RU")
 								li.aside-content__item 
 									a(href="myWorks.html").aside-content__link Мои Работы
 								li.aside-content__item 
-									a(href="#").aside-content__link Обратная связь
+									a(href="contactUs.html").aside-content__link Обратная связь
 
 						section.aside-content__contacs
 							.aside-content__contacs-title
@@ -95,34 +102,32 @@ html(lang="ru-RU")
 							.central-content__block-title
 								h2.central-content__block-title-text Опыт работы
 							.central-content__block-content
-								.central-content__block-experience
-									ul.central-content__block-experience-list
-										li.central-content__block-experience-item.central-content__block-experience-item--brief_case 
-											p "ИП Боровицкий" - Продавец дисков
-											p Сентябрь 2005 - Август 2008
-										li.central-content__block-experience-item.central-content__block-experience-item--brief_case
-											p "ООО Системы безопастности" - Системный администратор
-											p Июнь 2008 - Июль 2010
-										li.central-content__block-experience-item.sprite.sprite-icon_brief_case1
-											p Магнит, Розничная сеть" - Ведущий аналитик по внедрению Oracle Web Center
-											p Август 2011 - Октябрь 2012
+								ul.central-content__block-experience-list
+									li.central-content__block-experience-item.central-content__block-experience-item--brief_case 
+										p "ИП Боровицкий" - Продавец дисков
+										p Сентябрь 2005 - Август 2008
+									li.central-content__block-experience-item.central-content__block-experience-item--brief_case
+										p "ООО Системы безопастности" - Системный администратор
+										p Июнь 2008 - Июль 2010
+									li.central-content__block-experience-item.sprite.sprite-icon_brief_case1
+										p Магнит, Розничная сеть" - Ведущий аналитик по внедрению Oracle Web Center
+										p Август 2011 - Октябрь 2012
 
 
 						.central-content__block
 							.central-content__block-title
 								h2.central-content__block-title-text Образование
 							.central-content__block-content
-								.central-content__block-education
-									ul.central-content__block-education-list
-										li.central-content__block-education-item.central-content__block-education-item--school
-											p МОУ СОШ №32
-											p Сентябрь 1993 - май 2003
-										li.central-content__block-education-item.central-content__block-education-item--graduate
-											p КемГУ
-											p Июнь 2003 - Июль 2008
-										li.central-content__block-education-item.central-content__block-education-item--file
-											p Курсы Loftschool.ru
-											p Ноябрь 2015
+								ul.central-content__block-education-list
+									li.central-content__block-education-item.central-content__block-education-item--school
+										p МОУ СОШ №32
+										p Сентябрь 1993 - май 2003
+									li.central-content__block-education-item.central-content__block-education-item--graduate
+										p КемГУ
+										p Июнь 2003 - Июль 2008
+									li.central-content__block-education-item.central-content__block-education-item--file
+										p Курсы Loftschool.ru
+										p Ноябрь 2015
 											
 
 		//FOOTER
@@ -130,7 +135,7 @@ html(lang="ru-RU")
 		footer.page-footer
 			.page-footer__container.clearfix
 				.page-footer__lock
-					a(href="#").page-footer__lock-inner вход
+					a(href="authorization.html").page-footer__lock-inner вход
 				.page-footer__copyright
 					p &copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!
 

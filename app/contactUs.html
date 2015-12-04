@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <title>Портфолио	</title>
+    <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contactUs.css">
+    <script src="bower/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container clearfix">
+        <!-- HEADER-->
+        <header class="page-header">
+          <div class="page-header__container clearfix">
+            <div class="page-header__logo-container"><a href="#" class="page-header__logo-link"><img src="img/logo.png" alt="логотип" class="page-header__logo">
+                <div class="page-header__logo-text">LoftSchool</div></a></div>
+            <ul class="page-header__social-btn">
+              <li class="page-header__social-btn-item"><a href="https://www.facebook.com/profile.php?id=100001747512288" target="_blank" class="page-header__social-btn-link fa fa-facebook"> <span>facebook</span></a></li>
+              <li class="page-header__social-btn-item"><a href="http://vk.com/id57193343" target="_blank" class="page-header__social-btn-link fa fa-vk"><span>вконтакте</span></a></li>
+              <li class="page-header__social-btn-item"><a href="#" class="page-header__social-btn-link fa fa-twitter"><span>tw </span></a></li>
+              <li class="page-header__social-btn-item"><a href="https://github.com/Anatoliy-Bezhenaru" target="_blank" class="page-header__social-btn-link fa fa-github-alt"></a></li>
+            </ul>
+          </div>
+        </header>
+        <!-- MAIN-CONTENT-->
+        <section class="main-content clearfix">
+          <aside class="aside-content">
+            <nav class="aside-content__menu">
+              <ul class="aside-content__list">
+                <li class="aside-content__item"> <a href="index.html" class="aside-content__link">Обо мне</a></li>
+                <li class="aside-content__item"> <a href="myWorks.html" class="aside-content__link">Мои Работы</a></li>
+                <li class="aside-content__item"> <a href="contactUs.html" class="aside-content__link aside-content__link-active">Обратная связь</a></li>
+              </ul>
+            </nav>
+            <section class="aside-content__contacs">
+              <div class="aside-content__contacs-title">
+                <h2 class="aside-content__contacs-title-text">Контакты</h2>
+              </div>
+              <ul class="aside-content__contacs-list">
+                <li class="aside-content__contacs-item"><a href="mailto:bejena-ru@ya.ru" class="aside-content__contacs-link aside-content__contacs-link--envelope">bejena-ru@ya.ru</a></li>
+                <li class="aside-content__contacs-item"><a href="tel:+79049614838" class="aside-content__contacs-link aside-content__contacs-link--phone">89049614838</a></li>
+                <li class="aside-content__contacs-item"><a href="skype:achunter86" class="aside-content__contacs-link aside-content__contacs-link--skype">achunter86</a></li>
+              </ul>
+            </section>
+          </aside>
+          <section class="central-content">
+            <div class="central-content__contact-us">
+              <h2 class="central-content__contact-us-title">У вас интересный проект? Напишите мне</h2>
+              <div class="feedback-block">
+                <form class="feedback-block__form">
+                  <div class="feedback-block__email-name-container clearfix">
+                    <div class="feedback-block__name-container">
+                      <label for="name" class="feedback-block__label feedback-block__name-label">Имя</label>
+                      <input type="text" id="name" placeholder="Как к Вам обращаться" required class="feedback-block__form-input feedback-block__form-input--name">
+                    </div>
+                    <div class="feedback-block__email-container">
+                      <label for="email" class="feedback-block__label feedback-block__email-label">Email</label>
+                      <input type="email" id="email" placeholder="Куда мне писать" value="" required class="feedback-block__form-input feedback-block__form-input--email">
+                    </div>
+                  </div>
+                  <div class="feedback-block__textarea-container">
+                    <label for="message" class="feedback-block__label feedback-block__textarea">Сообщение</label>
+                    <textarea placeholder="Кратко в чем суть" id="message" required class="feedback-block__form-textarea"></textarea>
+                  </div>
+                  <div class="feedback-block__captcha-container clearfix">
+                    <div class="feedback-block__captcha-text">
+                      <p>Введите код, указанный на картинке</p>
+                    </div>
+                    <div class="feedback-block__captcha-wrap-img"></div>
+                    <input type="text" placeholder="Введите код" value="" required class="feedback-block__form-input feedback-block__form-input--captcha">
+                  </div>
+                  <div class="feedback-block__buttons clearfix">
+                    <div class="feedback-block__buttons-send-wrap">
+                      <button type="submit" value="Отправить" class="feedback-block__btn feedback-block__btn--send">Отправить</button>
+                    </div>
+                    <div class="feedback-block__buttons-clear-wrap"> 
+                      <button type="reset" value="Очистить" class="feedback-block__btn feedback-block__btn--clear">Очистить</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <footer class="page-footer">
+      <div class="page-footer__container clearfix">
+        <div class="page-footer__lock"><a href="authorization.html" class="page-footer__lock-inner">вход</a></div>
+        <div class="page-footer__copyright">
+          <p>&copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

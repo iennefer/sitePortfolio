@@ -1,0 +1,118 @@
+doctype html
+html(lang="ru-RU")
+	head
+		meta(charset="UTF-8")
+		title Портфолио	
+		link(rel="stylesheet" href="bower/normalize-css/normalize.css")
+		link(rel="stylesheet" href="css/main.css")
+		link(rel="stylesheet" href="css/contactUs.css")
+		script(src="bower/modernizr/modernizr.js")
+	body
+		.wrapper
+			.container.clearfix
+
+				// HEADER
+
+				header.page-header
+					.page-header__container.clearfix
+						.page-header__logo-container
+							a(href="#").page-header__logo-link
+								img(src='img/logo.png' alt='логотип').page-header__logo
+								.page-header__logo-text LoftSchool
+					
+						ul.page-header__social-btn
+							li.page-header__social-btn-item
+								a(href="https://www.facebook.com/profile.php?id=100001747512288" target="_blank").page-header__social-btn-link.fa.fa-facebook 
+									span facebook
+							li.page-header__social-btn-item
+								a(href="http://vk.com/id57193343" target="_blank").page-header__social-btn-link.fa.fa-vk
+									span вконтакте
+							li.page-header__social-btn-item
+								a(href="#").page-header__social-btn-link.fa.fa-twitter
+									span tw 
+							li.page-header__social-btn-item
+								a(href="https://github.com/Anatoliy-Bezhenaru" target="_blank").page-header__social-btn-link.fa.fa-github-alt
+									
+				// MAIN-CONTENT
+
+				section.main-content.clearfix
+
+					aside.aside-content
+						nav.aside-content__menu
+							ul.aside-content__list
+								li.aside-content__item 
+									a(href="index.html").aside-content__link Обо мне
+								li.aside-content__item 
+									a(href="myWorks.html").aside-content__link Мои Работы
+								li.aside-content__item 
+									a(href="contactUs.html").aside-content__link.aside-content__link-active Обратная связь
+
+						section.aside-content__contacs
+							.aside-content__contacs-title
+								h2.aside-content__contacs-title-text Контакты
+							ul.aside-content__contacs-list
+								li.aside-content__contacs-item
+									a(href="mailto:bejena-ru@ya.ru").aside-content__contacs-link.aside-content__contacs-link--envelope bejena-ru@ya.ru
+								li.aside-content__contacs-item
+									a(href="tel:+79049614838").aside-content__contacs-link.aside-content__contacs-link--phone 89049614838
+								li.aside-content__contacs-item
+									a(href="skype:achunter86").aside-content__contacs-link.aside-content__contacs-link--skype achunter86
+
+					section.central-content
+						.central-content__contact-us
+							h2.central-content__contact-us-title У вас интересный проект? Напишите мне
+							.feedback-block
+								form.feedback-block__form
+									.feedback-block__email-name-container.clearfix
+										.feedback-block__name-container
+											label(for="name").feedback-block__label.feedback-block__name-label Имя
+											input(type="text" id="name" placeholder="Как к Вам обращаться" required).feedback-block__form-input.feedback-block__form-input--name
+
+										.feedback-block__email-container
+											label(for="email").feedback-block__label.feedback-block__email-label Email
+											input(type="email" id="email" placeholder="Куда мне писать" value="" required).feedback-block__form-input.feedback-block__form-input--email
+
+									.feedback-block__textarea-container
+										label(for="message").feedback-block__label.feedback-block__textarea Сообщение
+										textarea(placeholder="Кратко в чем суть" id="message" required).feedback-block__form-textarea
+
+									.feedback-block__captcha-container.clearfix
+										.feedback-block__captcha-text
+											p Введите код, указанный на картинке
+										.feedback-block__captcha-wrap-img
+										input(type="text" placeholder="Введите код" value="" required).feedback-block__form-input.feedback-block__form-input--captcha
+
+									.feedback-block__buttons.clearfix
+										.feedback-block__buttons-send-wrap
+											button(type="submit" value="Отправить").feedback-block__btn.feedback-block__btn--send Отправить
+
+										.feedback-block__buttons-clear-wrap 
+											button(type="reset" value="Очистить").feedback-block__btn.feedback-block__btn--clear Очистить
+
+
+
+
+							
+										
+		//FOOTER
+
+		footer.page-footer
+			.page-footer__container.clearfix
+				.page-footer__lock
+					a(href="authorization.html").page-footer__lock-inner вход
+				.page-footer__copyright
+					p &copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

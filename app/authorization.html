@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <title>Портфолио	</title>
+    <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/authorization.css">
+    <script src="bower/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container clearfix">
+        <!-- MAIN-CONTENT-->
+        <section class="authorization-block">
+          <div class="authorization-block__wrapper">
+            <div class="authorization-block__title">Авторизируйтесь</div>
+            <div class="authorization-block__container">
+              <form class="authorization-block__form">
+                <input type="mail" id="mail" placeholder="Введите Email" value="" required class="authorization-block__form-input authorization-block__form-input--mail"><span class="authorization-block__icon-mail"></span>
+                <input type="password" id="password" placeholder="Введите пароль" value="" required class="authorization-block__form-input authorization-block__form-input--password"><span class="authorization-block__icon-password"></span>
+                <div class="authorization-block__checkbox">
+                  <input type="checkbox" id="checkbox" placeholder="Войти" value="Отправить" class="authorization-block__checkbox-input">
+                  <label for="checkbox" class="authorization-block__label authorization-memory-label">Запомнить меня?</label>
+                </div>
+                <div class="authorization-block__buttons">
+                  <button type="submit" class="authorization-block__btn authorization-block__btn--sign-in">Войти</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <footer class="page-footer">
+      <div class="page-footer__container clearfix">
+        <div class="page-footer__lock"><a href="authorization.html" class="page-footer__lock-inner">вход</a></div>
+        <div class="page-footer__copyright">
+          <p>&copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
